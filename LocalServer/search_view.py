@@ -1,0 +1,8 @@
+# -*- coding: utf-8 -*-
+
+from django.shortcuts import render_to_response
+
+
+# form
+def search_form(request):
+    return render_to_response('search_form.html')
